@@ -1,1 +1,1 @@
-This is 0x00 shell basics Bash project
+This is 0x00 shell basic bash project
