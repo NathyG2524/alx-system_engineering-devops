@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
+<<<<<<< HEAD
 # Fixes a container such that:
 # -nginx must be running as nginx user
 # -nginx must be listening on all active IPs on port 8080
+=======
+# run nginx as nginx
+>>>>>>> 05a7265417f860c6b673e5556f10ced675969cae
 
 pkill -f apache2
 chown nginx:nginx /etc/nginx/nginx.conf
