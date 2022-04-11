@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''
+0;136;0c'''
 Python script that, using this REST API, for a given employee ID
 '''
 import requests
@@ -20,7 +20,7 @@ if __name__ == "__main__":
                 if tasks.get("completed") is True:
                     completed.append(tasks)
             count = len(completed)
-        print("Employee {} is done with tasks{}/{}"
+        print("Employee {} is done with tasks({}/{}):"
               .format(name, count, task_completed))
         for complete in completed:
             print("\t {}".format(complete.get("title")))
